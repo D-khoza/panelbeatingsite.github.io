@@ -104,7 +104,7 @@
   body
     {
       font-size: 18px;
-	  .img-responsive::after {
+	  .img-responsive::before {
   content: "\A\A\A\A\A\A"; /* Adds two line breaks */
   white-space: pre; /* Ensures line breaks are respected */
 }
