@@ -116,7 +116,7 @@
     }
 
 	.break::after {
-  content: "\A\A"; /* Adds two line breaks */
+  content: "\A\A\A\A\A\A"; /* Adds two line breaks */
   white-space: pre; /* Ensures line breaks are respected */
 }
 }
