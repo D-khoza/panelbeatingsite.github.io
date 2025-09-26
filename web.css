@@ -104,7 +104,10 @@
   body
     {
       font-size: 18px;
-		
+	  .img-responsive::after {
+  content: "\A\A\A\A\A\A"; /* Adds two line breaks */
+  white-space: pre; /* Ensures line breaks are respected */
+}
 	  .img-responsive
 	   {
 	 
@@ -115,10 +118,7 @@
 	   }
     }
 
-	.break::after {
-  content: "\A\A\A\A\A\A"; /* Adds two line breaks */
-  white-space: pre; /* Ensures line breaks are respected */
-}
+	
 }
 
 .img-responsive 
