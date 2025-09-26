@@ -104,7 +104,9 @@
   body
     {
       font-size: 18px;
-
+       p {
+    line-height: 6; /* doubles line spacing */
+           }
 	  .img-responsive
 	   {
 	    max-width: 100vw;
