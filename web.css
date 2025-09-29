@@ -76,7 +76,7 @@
 
           font-size: 14px;
 	        p {
-                 line-height: 8; /* doubles line spacing */
+                 line-height: 16; /* doubles line spacing */
               }
           .img-responsive
 		   {
